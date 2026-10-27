@@ -7,5 +7,5 @@ export interface IAuthUserRepository {
     
     findByEmail(email: string): Promise<UserEntity | null>;
     create(requestRegisterDTO: RequestRegisterDTO): Promise<UserEntity>;
-
+    findById(id : number): Promise<UserEntity | null>;
 }

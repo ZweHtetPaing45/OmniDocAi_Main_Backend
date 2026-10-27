@@ -44,4 +44,20 @@ export class MySQLAuthUserRepository implements IAuthUserRepository {
 
     }
 
+    async findById(id: number): Promise<UserEntity | null> {
+    
+      const [rows] : any = await pool.query('select * from users where id = ?',[id]);
+
+      if(rows.length === 0){
+        return null;
+      }
+
+      const row = rows[0];
+
+      return new UserEntity(row.id,row.username,row.email,null,row.create_at);
+
+  }
+
+    
+
 }
