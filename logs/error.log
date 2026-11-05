@@ -20,3 +20,39 @@
 {"date":"2026-10-27","time":"20:42:46","level":"ERROR","message":"Unknown error","meta":{"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'total_pages' in 'field list'","sql":"insert into documents (user_id,title,file_name,file_path,total_pages) values (1,'First Project','Yahantar-tot-eeAung-dagun46TitlestipitakadharaAshinAbhijatabhivamsa.pdf','http://127.0.0.1:3000/uploads/Yahantar-tot-eeAung-dagun46TitlestipitakadharaAshinAbhijatabhivamsa.pdf',68)"}}
 {"date":"2026-10-27","time":"20:49:59","level":"ERROR","message":"AppError occured","meta":{"message":"Token not provided","statusCode":401}}
 {"date":"2026-10-27","time":"20:51:26","level":"ERROR","message":"AppError occured","meta":{"message":"Token not provided","statusCode":401}}
+{"date":"2026-10-30","time":"22:12:59","level":"ERROR","message":"Unknown error","meta":{}}
+{"date":"2026-10-30","time":"22:13:38","level":"ERROR","message":"Unknown error","meta":{}}
+{"date":"2026-10-30","time":"22:14:32","level":"ERROR","message":"Unknown error","meta":{}}
+{"date":"2026-10-30","time":"22:15:00","level":"ERROR","message":"Unknown error","meta":{}}
+{"date":"2026-10-30","time":"22:15:43","level":"ERROR","message":"Unknown error","meta":{}}
+{"date":"2026-10-30","time":"22:15:50","level":"ERROR","message":"Unknown error","meta":{}}
+{"date":"2026-10-30","time":"22:21:41","level":"ERROR","message":"Unknown error","meta":{}}
+{"date":"2026-10-30","time":"22:21:57","level":"ERROR","message":"Unknown error","meta":{}}
+{"date":"2026-10-31","time":"11:29:16","level":"ERROR","message":"Unknown error","meta":{}}
+{"date":"2026-10-31","time":"11:30:05","level":"ERROR","message":"Unknown error","meta":{}}
+{"date":"2026-10-31","time":"11:31:41","level":"ERROR","message":"Unknown error","meta":{}}
+{"date":"2026-10-31","time":"11:35:54","level":"ERROR","message":"Unknown error","meta":{}}
+{"date":"2026-10-31","time":"16:51:27","level":"ERROR","message":"Unknown error","meta":{}}
+{"date":"2026-10-31","time":"16:55:00","level":"ERROR","message":"Unknown error","meta":{}}
+{"date":"2026-10-31","time":"16:59:54","level":"ERROR","message":"AppError occured","meta":{"message":"No page results returned from PDF analyzer","statusCode":400}}
+{"date":"2026-10-31","time":"17:00:40","level":"ERROR","message":"AppError occured","meta":{"message":"No page results returned from PDF analyzer","statusCode":400}}
+{"date":"2026-10-31","time":"17:01:03","level":"ERROR","message":"AppError occured","meta":{"message":"No page results returned from PDF analyzer","statusCode":400}}
+{"date":"2026-10-31","time":"17:05:01","level":"ERROR","message":"AppError occured","meta":{"message":"No page results returned from PDF analyzer","statusCode":400}}
+{"date":"2026-10-31","time":"17:05:17","level":"ERROR","message":"AppError occured","meta":{"message":"No page results returned from PDF analyzer","statusCode":400}}
+{"date":"2026-10-31","time":"17:40:51","level":"ERROR","message":"Unknown error","meta":{}}
+{"date":"2026-10-31","time":"17:42:40","level":"ERROR","message":"Unknown error","meta":{}}
+{"date":"2026-10-31","time":"17:42:58","level":"ERROR","message":"Unknown error","meta":{}}
+{"date":"2026-11-01","time":"12:24:54","level":"ERROR","message":"Unknown error","meta":{}}
+{"date":"2026-11-03","time":"13:38:26","level":"ERROR","message":"AppError occured","meta":{"message":"User not found","statusCode":404}}
+{"date":"2026-11-03","time":"13:38:37","level":"ERROR","message":"AppError occured","meta":{"message":"Invalid password","statusCode":401}}
+{"date":"2026-11-03","time":"13:45:42","level":"ERROR","message":"AppError occured","meta":{"message":"User already exists","statusCode":400}}
+{"date":"2026-11-03","time":"14:17:03","level":"ERROR","message":"AppError occured","meta":{"message":"Invalid password","statusCode":401}}
+{"date":"2026-11-03","time":"14:17:19","level":"ERROR","message":"AppError occured","meta":{"message":"User not found","statusCode":404}}
+{"date":"2026-11-03","time":"14:18:36","level":"ERROR","message":"AppError occured","meta":{"message":"User already exists","statusCode":400}}
+{"date":"2026-11-03","time":"15:19:52","level":"ERROR","message":"AppError occured","meta":{"message":"Invalid password","statusCode":401}}
+{"date":"2026-11-03","time":"15:19:57","level":"ERROR","message":"AppError occured","meta":{"message":"User not found","statusCode":404}}
+{"date":"2026-11-03","time":"15:20:38","level":"ERROR","message":"AppError occured","meta":{"message":"User already exists","statusCode":400}}
+{"date":"2026-11-03","time":"15:36:10","level":"ERROR","message":"Unknown error","meta":{}}
+{"date":"2026-11-03","time":"15:36:29","level":"ERROR","message":"Unknown error","meta":{}}
+{"date":"2026-11-03","time":"15:36:45","level":"ERROR","message":"Unknown error","meta":{}}
+{"date":"2026-11-03","time":"22:11:55","level":"ERROR","message":"Unknown error","meta":{}}

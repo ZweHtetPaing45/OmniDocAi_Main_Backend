@@ -11,7 +11,7 @@ const logger = createLogger();
 const base_url = env.PDF_SERVICE_URL;
 
 //Upload
-export const uploadImage = async (file: Express.Multer.File)=>{
+export const uploadPdf = async (file: Express.Multer.File)=>{
 
     const form = new FormData();
     form.append("pdf",file.buffer,{filename: file.originalname,contentType: file.mimetype});
@@ -23,8 +23,8 @@ export const uploadImage = async (file: Express.Multer.File)=>{
         return res.data;
         
     }catch(error){
-        logger.error("Upload Image Error",error);
-        throw new AppError("Upload Image Error",400);
+        logger.error("Upload Pdf Error",error);
+        throw new AppError("Upload Pdf Error",400);
     }
 
 }

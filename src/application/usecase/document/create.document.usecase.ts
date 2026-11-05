@@ -1,6 +1,6 @@
 import { RequestCreateDocumentDataDTO } from "../../dto/document/request.create.document.dto";
 import { DocumentRepository } from "../../interface/repositories/document/i-document-repository";
-import { uploadImage } from "../../../services/pdf.service";
+import { uploadPdf } from "../../../services/pdf.to.image.change.api.service";
 import { DocumentPageRepository } from "../../interface/repositories/document.page/document.page.repository";
 import { RequestCreateDocumentPageDTO } from "../../dto/document.page/create.document.page.dto";
 
@@ -21,7 +21,7 @@ export class CreateDocumentUseCase{
 
             // console.log('File UseCase',data.file);
 
-            imageResult = await uploadImage(data.file);
+            imageResult = await uploadPdf(data.file);
 
             // console.log("image Result",imageResult.result);
 
